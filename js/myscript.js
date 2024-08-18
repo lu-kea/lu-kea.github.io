@@ -32,7 +32,8 @@ function edit_data(button){
 
     var inputName=prompt('请输入姓名');
     var inputPhone=prompt('请输入联系方式');
-
+    if(inputName!=0)
     name.innerHTML=inputName;
+    if(inputPhone!=0)
     phone.innerHTML=inputPhone;
 }
